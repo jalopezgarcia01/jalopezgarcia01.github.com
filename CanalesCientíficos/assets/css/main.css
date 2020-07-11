@@ -1,0 +1,50 @@
+/*
+azul: #77A1D3
+verde aqua: #79CBCA
+rosa: #E684AE
+rosa fuente: #d500f9
+*/
+html{
+    font-family: 'Nunito', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #d500f9;
+}
+
+.title{
+    text-transform: capitalize;
+}
+
+.paragraph{
+    line-height: 1.8em;
+    font-weight: 200;
+}
+.container{ 
+    background: #77a1d3; 
+    background: -webkit-linear-gradient(to right, #77a1d3, #79cbca, #e684ae); 
+    background: linear-gradient(to right, #77a1d3, #79cbca, #e684ae);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.content{
+    max-width: 960px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+.red{
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+#boton-pago{
+    background-color: yellow;
+}
+td{
+    border:solid 1px;
+}
