@@ -13,13 +13,67 @@ a{
     color: #d500f9;
 }
 
+a:hover{
+    opacity: 0.6;
+}
+
+a:focus{
+    background-color: turquoise;
+}
 .title{
     text-transform: capitalize;
+    text-align: center;
 }
 
 .paragraph{
     line-height: 1.8em;
     font-weight: 200;
+}
+.table{
+    width: 100%;
+    border-spacing: 0;
+}
+.table td, .table th{
+padding: 1em;
+text-align: center;
+}
+
+.table tr:nth-child(even){ background-color: #f3e5f5;}
+
+.fa-star, .fa-star-o, .fa-star-half-alt{
+    color: #ffc400;
+}
+
+.title-item{
+    /*
+    border-bottom-style: solid;
+    border-width: 2px;
+    border-color: #C6426E;
+    */
+    font-size: 2em;
+    border-bottom: solid 2px #C6426E;
+    padding-bottom:  1em;
+    /*
+    padding-top: 2px;
+    padding: arriba derecha abajo izquierda;
+    padding: arriba/abajo derecha/izquierda;
+    */
+}
+
+.position{
+    background-color: #79CBCA;
+    color: white;
+    /*padding: 1em 2em 3em 4em;*/
+    padding: 10px;
+    border-radius: 4px;
+    /*
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    */
+    margin-right: 0.5em;
+    
 }
 .container{ 
     background: #77a1d3; 
@@ -32,19 +86,51 @@ a{
 }
 .content{
     max-width: 960px;
-    max-height: 500px;
+    max-height: 520px;
     width: 100%;
     height: 100%;
     background-color: #fff;
+    /*box-shadow: diferenciadorHorizontal diferenciadorVertical desenfoque amplitud color;*/
+    /*box-shadow: 0 3px 6px #000;*/
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 4px;
+    position: relative;
+    padding: 1.8em;
 }
-.red{
-    height: 200px;
-    width: 100px;
-    background-color: red;
+
+.actions{
+    position: absolute;
+    top: 1em;
+    right: 1em;
 }
-#boton-pago{
-    background-color: yellow;
+
+.close{
+    height: 40px;
+    width: 40px;
+    color: white;
+    border-radius: 50%;
+    background-color: #E684AE;
+    display: inline-block;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.address{
+    font-weight: bold;
+    color: #79CBCA;
+    font-size: 1.2em;
+}
+
+.main-image{
+    float: left;
+    margin-right: 1em;
+    height: 250px;
+}
+/*
 td{
     border:solid 1px;
 }
+*/
