@@ -382,13 +382,13 @@ a:hover, a:focus, a:active {
   border-color: #1D809F !important;
   color: #fff !important;
 }
-
+/*
 .btn-primary-2{
   background-color: None;
   border-color: None;
   color: #fff !important;
 }
-
+*/
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background-color: #155d74 !important;
