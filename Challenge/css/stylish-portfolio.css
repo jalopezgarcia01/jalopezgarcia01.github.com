@@ -1,4 +1,8 @@
-
+/*!
+ * Start Bootstrap - Stylish Portfolio v5.0.8 (https://startbootstrap.com/themes/stylish-portfolio)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/blob/master/LICENSE)
+ */
 
 body,
 html {
@@ -16,7 +20,7 @@ body {
 
 .content-section {
   padding-top: 7.5rem;
-  padding-bottom: 7.5rem; /* 7.5 rem*/
+  padding-bottom: 7.5rem;
 }
 
 .content-section-heading h2 {
@@ -80,7 +84,7 @@ h6 {
 .scroll-to-top i {
   font-weight: 800;
 }
-/*
+
 .masthead {
   min-height: 30rem;
   position: relative;
@@ -106,37 +110,6 @@ h6 {
     height: 100vh;
   }
   .masthead h1 {
-    font-size: 5.5rem;
-  }
-}
-*/
-
-.covid {
-  min-height: 30rem;
-  position: relative;
-  display: table;
-  width: 100%;
-  height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-covid.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.covid h1 {
-  font-size: 4rem;
-  margin: 0;
-  padding: 0;
-  color: #fff;
-}
-
-
-@media (min-width: 992px) {
-  .covid {
-    height: 100vh;
-  }
-  .covid h1 {
     font-size: 5.5rem;
   }
 }
@@ -252,22 +225,7 @@ h6 {
   display: block;
   max-width: 30rem;
 }
-/*
-.page {
-  padding: 15rem 0;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-page.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 
-.page h2 {
-  font-size: 3.5rem;
-  font-weight: 700;
-  display: block;
-  max-width: 30rem;
-}
-*/
 .portfolio-item {
   display: block;
   position: relative;
@@ -378,17 +336,10 @@ a:hover, a:focus, a:active {
   border-color: #1D809F !important;
   color: #fff !important;
 }
-/*
-.btn-primary-2{
-  background-color: None;
-  border-color: None;
-  color: #fff !important;
-}
-*/
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background-color: #155d74 !important;
-  border-color: #155d74 !important; /*#155d74 */
+  border-color: #155d74 !important;
 }
 
 .btn-secondary {
